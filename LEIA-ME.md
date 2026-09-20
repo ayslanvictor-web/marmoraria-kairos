@@ -70,3 +70,8 @@ Orçamento, atendimento personalizado, 36 opções do catálogo, projetos reside
 intro.js recupera a entrada com letras animadas, monograma K, feixe de luz e slogan da versão antiga. Aparece ao carregar a página, fecha automaticamente em 4,8 segundos e pode ser dispensada pelo botão Pular abertura, Conheça a Kairós ou Escape. A navegação interna não repete a abertura. Com movimento reduzido, mostra uma versão estática por 1,2 segundo. Sem JavaScript, a abertura permanece oculta. Inclua intro.js na publicação.
 
 Verificado: fechamento automático, botões, Escape, preservação da rota inicial, movimento reduzido e ausência de erros de JavaScript.
+
+
+## GitHub Pages
+
+A hospedagem GitHub Pages usa main /docs, com caminhos relativos e docs/.nojekyll. A publicação ocorre automaticamente a cada envio que atualize docs. A pasta docs contém apenas os arquivos públicos. Endereço: https://ayslanvictor-web.github.io/marmoraria-kairos/. A prévia solicita que buscadores não a indexem. Ao alterar o código raiz, atualize também os arquivos correspondentes em docs antes de enviar. A abertura atual dura 10 segundos, com letras separadas por 240 ms.
