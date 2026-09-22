@@ -21,7 +21,7 @@
       if (a.hash === '#' + id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
     const names = { inicio: 'Marmoraria em Artur Nogueira', materiais: 'Materiais do catálogo', projetos: 'Ambientes e projetos', estudio: 'Estúdio 3D', contato: 'A Kairós e contato' };
-    document.title = names[id] + ' | Marmoraria Kairós';
+    document.title = id === 'inicio' ? 'Marmoraria Kairós | Artur Nogueira – SP' : names[id] + ' | Marmoraria Kairós';
     if (dialog.open) dialog.close();
     if (focus) {
       document.querySelector('#' + id + ' h1').focus({ preventScroll: true });
