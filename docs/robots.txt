@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://ayslanvictor-web.github.io/marmoraria-kairos/sitemap.xml

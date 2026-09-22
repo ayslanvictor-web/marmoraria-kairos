@@ -20,7 +20,7 @@
     document.querySelectorAll('.header nav a').forEach((a) => {
       if (a.hash === '#' + id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
-    const names = { inicio: 'Pedras para o seu projeto', materiais: 'Materiais do catálogo', projetos: 'Ambientes e projetos', estudio: 'Estúdio 3D', contato: 'A Kairós e contato' };
+    const names = { inicio: 'Marmoraria em Artur Nogueira', materiais: 'Materiais do catálogo', projetos: 'Ambientes e projetos', estudio: 'Estúdio 3D', contato: 'A Kairós e contato' };
     document.title = names[id] + ' | Marmoraria Kairós';
     if (dialog.open) dialog.close();
     if (focus) {

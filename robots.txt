@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marmorariakairos.com.br/sitemap.xml
+Sitemap: https://ayslanvictor-web.github.io/marmoraria-kairos/sitemap.xml
